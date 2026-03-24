@@ -64,6 +64,8 @@ Armazenamento dos dados em:
 ProjetoEtl_Futebol/
 │
 ├── extract.py
+├── load.py
+├── transform.py
 ├── data/
 │   └── jogos.json
 ├── README.md
