@@ -1,0 +1,122 @@
+[
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Cardiff City",
+        "visitante": "Blackpool",
+        "gols_mandante": "0",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Wigan Athletic",
+        "visitante": "Exeter City",
+        "gols_mandante": "2",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Stevenage",
+        "visitante": "Reading",
+        "gols_mandante": "1",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Port Vale",
+        "visitante": "Bolton Wanderers",
+        "gols_mandante": "1",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Plymouth Argyle",
+        "visitante": "Huddersfield Town",
+        "gols_mandante": "3",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Mansfield Town",
+        "visitante": "Northampton Town",
+        "gols_mandante": "4",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Luton Town",
+        "visitante": "Stockport County",
+        "gols_mandante": "1",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Lincoln City",
+        "visitante": "Rotherham United",
+        "gols_mandante": "3",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Leyton Orient",
+        "visitante": "Wycombe Wanderers",
+        "gols_mandante": "2",
+        "gols_visitante": "0"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Burton Albion",
+        "visitante": "Bradford City",
+        "gols_mandante": "2",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "Barnsley",
+        "visitante": "Doncaster Rovers",
+        "gols_mandante": "0",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-21 00-00-00",
+        "mandante": "AFC Wimbledon",
+        "visitante": "Peterborough United",
+        "gols_mandante": "1",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-17 00-00-00",
+        "mandante": "Cardiff City",
+        "visitante": "Wycombe Wanderers",
+        "gols_mandante": "0",
+        "gols_visitante": "2"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-17 00-00-00",
+        "mandante": "Stockport County",
+        "visitante": "Northampton Town",
+        "gols_mandante": "2",
+        "gols_visitante": "1"
+    },
+    {
+        "liga": "English League 1",
+        "data": "2026-03-17 00-00-00",
+        "mandante": "Plymouth Argyle",
+        "visitante": "Stevenage",
+        "gols_mandante": "1",
+        "gols_visitante": "0"
+    }
+]

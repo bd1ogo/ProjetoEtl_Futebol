@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS jogos(
 )
 """)
 
-with open("data/jogos.json", "r", encoding="utf-8") as f:
+with open("data/jogos_tratados.json", "r", encoding="utf-8") as f:
     jogos = json.load(f)
 
 for jogo in jogos:
