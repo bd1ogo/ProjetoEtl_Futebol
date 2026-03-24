@@ -17,8 +17,10 @@ for event in data["events"]:
     home_score = event["intHomeScore"] or 0
     away_score = event["intAwayScore"] or 0
     date = event["dateEvent"]
+    league = event["strLeague"]
 
     jogo = {
+        "liga": league,
         "data": date,
         "mandante": home,
         "visitante": away,
