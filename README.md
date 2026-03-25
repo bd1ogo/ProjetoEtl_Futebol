@@ -1,6 +1,6 @@
-# ⚽ ETL Futebol - Pipeline de Dados
+#  ETL Futebol - Pipeline de Dados
 
-## 📌 Descrição
+##  Descrição
 
 Este projeto tem como objetivo construir um pipeline de dados (ETL) utilizando dados de futebol obtidos através de uma API pública.
 
@@ -14,7 +14,7 @@ Este projeto faz parte do meu aprendizado na área de Engenharia de Dados.
 
 ---
 
-## 🧠 Conceitos aplicados
+##  Conceitos aplicados
 
 * ETL (Extract, Transform, Load)
 * Consumo de API REST
@@ -24,7 +24,7 @@ Este projeto faz parte do meu aprendizado na área de Engenharia de Dados.
 
 ---
 
-## ⚙️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 * Python
 * Requests
@@ -33,7 +33,7 @@ Este projeto faz parte do meu aprendizado na área de Engenharia de Dados.
 
 ---
 
-## 🔄 Pipeline de Dados
+##  Pipeline de Dados
 
 ### 1. Extract
 
@@ -58,7 +58,7 @@ Armazenamento dos dados em:
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 ProjetoEtl_Futebol/
@@ -73,7 +73,7 @@ ProjetoEtl_Futebol/
 
 ---
 
-## ▶️ Como executar
+##  Como executar
 
 1. Clone o repositório:
 
@@ -95,7 +95,7 @@ python extract.py
 
 ---
 
-## 🚀 Próximos passos
+##  Próximos passos
 
 * Separar etapas em módulos (extract, transform, load)
 * Persistir dados em banco MySQL
@@ -105,6 +105,6 @@ python extract.py
 
 ---
 
-## 📌 Observação
+##  Observação
 
 Este projeto está em evolução contínua como parte do meu aprendizado em Engenharia de Dados.
