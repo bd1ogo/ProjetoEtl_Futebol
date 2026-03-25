@@ -1,0 +1,122 @@
+[
+    {
+        "time": "Mansfield Town",
+        "gols_feitos": 16,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Plymouth Argyle",
+        "gols_feitos": 14,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Lincoln City",
+        "gols_feitos": 12,
+        "gols_sofridos": 0
+    },
+    {
+        "time": "Stockport County",
+        "gols_feitos": 12,
+        "gols_sofridos": 8
+    },
+    {
+        "time": "Wigan Athletic",
+        "gols_feitos": 8,
+        "gols_sofridos": 0
+    },
+    {
+        "time": "Leyton Orient",
+        "gols_feitos": 8,
+        "gols_sofridos": 0
+    },
+    {
+        "time": "Burton Albion",
+        "gols_feitos": 8,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Wycombe Wanderers",
+        "gols_feitos": 8,
+        "gols_sofridos": 8
+    },
+    {
+        "time": "Northampton Town",
+        "gols_feitos": 8,
+        "gols_sofridos": 24
+    },
+    {
+        "time": "Doncaster Rovers",
+        "gols_feitos": 6,
+        "gols_sofridos": 0
+    },
+    {
+        "time": "Port Vale",
+        "gols_feitos": 4,
+        "gols_sofridos": 2
+    },
+    {
+        "time": "Stevenage",
+        "gols_feitos": 4,
+        "gols_sofridos": 2
+    },
+    {
+        "time": "Peterborough United",
+        "gols_feitos": 4,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Luton Town",
+        "gols_feitos": 4,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "AFC Wimbledon",
+        "gols_feitos": 4,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Bradford City",
+        "gols_feitos": 4,
+        "gols_sofridos": 8
+    },
+    {
+        "time": "Huddersfield Town",
+        "gols_feitos": 4,
+        "gols_sofridos": 12
+    },
+    {
+        "time": "Blackpool",
+        "gols_feitos": 0,
+        "gols_sofridos": 0
+    },
+    {
+        "time": "Reading",
+        "gols_feitos": 0,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Bolton Wanderers",
+        "gols_feitos": 0,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Barnsley",
+        "gols_feitos": 0,
+        "gols_sofridos": 4
+    },
+    {
+        "time": "Exeter City",
+        "gols_feitos": 0,
+        "gols_sofridos": 8
+    },
+    {
+        "time": "Cardiff City",
+        "gols_feitos": 0,
+        "gols_sofridos": 8
+    },
+    {
+        "time": "Rotherham United",
+        "gols_feitos": 0,
+        "gols_sofridos": 12
+    }
+]
