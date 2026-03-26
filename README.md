@@ -1,110 +1,169 @@
-#  ETL Futebol - Pipeline de Dados
+# ETL Futebol - Pipeline de Dados
 
-##  Descrição
+## Descrição
 
-Este projeto tem como objetivo construir um pipeline de dados (ETL) utilizando dados de futebol obtidos através de uma API pública.
+Este projeto implementa um pipeline completo de dados (ETL) utilizando informações de partidas de futebol obtidas via API pública.
 
-O pipeline realiza:
+Além do ETL, o projeto evoluiu para incluir:
 
-* Extração de dados de partidas de futebol
-* Transformação dos dados em um formato estruturado
-* Armazenamento em arquivo JSON (primeira etapa)
+* Persistência em banco de dados (MySQL)
+* Análises estatísticas (ranking de times)
+* Dashboard interativo com visualização de dados
+* Automação do pipeline completo
 
-Este projeto faz parte do meu aprendizado na área de Engenharia de Dados.
+Este projeto faz parte do meu aprendizado em **Engenharia de Dados e Análise de Dados**.
 
 ---
 
-##  Conceitos aplicados
+## Conceitos aplicados
 
 * ETL (Extract, Transform, Load)
 * Consumo de API REST
+* Modelagem de dados
 * Manipulação de JSON
-* Estruturação de dados
-* Organização de projeto
+* SQL (MySQL)
+* Análise de dados
+* Data Visualization
+* Pipeline automatizado
 
 ---
 
-##  Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * Python
 * Requests
 * JSON
+* MySQL
+* Pandas
+* Streamlit
 * Git & GitHub
 
 ---
 
-##  Pipeline de Dados
+## Pipeline de Dados
 
 ### 1. Extract
 
 Coleta de dados da API de futebol:
 
-* Endpoint: eventos de uma liga
-* Dados retornados: times, placar, data, etc.
-
-### 2. Transform
-
-Tratamento dos dados:
-
-* Seleção de campos relevantes
-* Organização em estrutura JSON
-* Preparação para persistência
-
-### 3. Load
-
-Armazenamento dos dados em:
-
-* Arquivo JSON local (`data/jogos.json`)
+* Times
+* Placar
+* Data dos jogos
+* Informações gerais da partida
 
 ---
 
-##  Estrutura do Projeto
+### 2. Transform
+
+Tratamento e organização dos dados:
+
+* Seleção de campos relevantes
+* Padronização dos dados
+* Estruturação para análise
+
+---
+
+### 3. Load
+
+Persistência dos dados:
+
+* Banco de dados MySQL (`jogos`)
+* Arquivos JSON
+
+---
+
+### 4. Analysis
+
+Geração de métricas por time:
+
+* Total de gols feitos
+* Total de gols sofridos
+* Saldo de gols
+* Ranking geral
+
+Critérios de ordenação:
+
+1. Maior saldo de gols
+2. Maior número de gols feitos
+3. Menor número de gols sofridos
+
+---
+
+### 5. Dashboard
+
+Visualização dos dados com Streamlit:
+
+* Tabela de ranking com posição
+* Melhor time (destaque)
+* Melhor ataque
+* Melhor defesa
+* Cores por desempenho:
+
+  * Verde → topo
+  * Amarelo → meio
+  * Vermelho → parte inferior
+
+---
+
+## Estrutura do Projeto
 
 ```
 ProjetoEtl_Futebol/
 │
 ├── extract.py
-├── load.py
 ├── transform.py
-├── data/
-│   └── jogos.json
+├── load.py
+├── analysis.py
+├── dashboard.py
+├── main.py
+│
+├── dados/
+│   ├── jogos.json
+│   └── jogos_tratados.json
+│   └── ranking.json
+│
 ├── README.md
 ```
 
 ---
 
-##  Como executar
+## Como executar
 
-1. Clone o repositório:
+### 1. Clone o repositório
 
-```
+```bash
 git clone <url-do-repositorio>
-```
-
-2. Acesse a pasta:
-
-```
 cd ProjetoEtl_Futebol
 ```
 
-3. Execute o script:
+---
 
-```
-python extract.py
+### 2. Execute o pipeline completo e inicia o dashboard
+
+```bash
+python main.py
 ```
 
 ---
 
-##  Próximos passos
+## Automação
 
-* Separar etapas em módulos (extract, transform, load)
-* Persistir dados em banco MySQL
-* Dockerizar o pipeline
-* Automatizar execução
-* Criar análises e dashboards
+O arquivo `main.py` executa todo o pipeline automaticamente:
+
+1. Extração
+2. Transformação
+3. Carga
+4. Análise
+5. Preparação dos dados para visualização
+6. Visualização dos dados via dashboard
 
 ---
 
-##  Observação
+## Observação
 
-Este projeto está em evolução contínua como parte do meu aprendizado em Engenharia de Dados.
+Este projeto foi desenvolvido como parte do meu aprendizado em Engenharia de Dados, com foco em:
+
+* Construção de pipelines completos
+* Integração com banco de dados
+* Análise e visualização de dados
+* Organização e boas práticas de código
