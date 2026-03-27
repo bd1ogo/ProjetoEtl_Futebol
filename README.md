@@ -110,9 +110,6 @@ Visualização dos dados com Streamlit:
 ```
 ProjetoEtl_Futebol/
 │
-├── extract.py
-├── transform.py
-├── load.py
 ├── analysis.py
 ├── dashboard.py
 ├── main.py
@@ -121,6 +118,11 @@ ProjetoEtl_Futebol/
 │   ├── jogos.json
 │   └── jogos_tratados.json
 │   └── ranking.json
+│
+├── etl/
+│   ├── extract.py
+│   └── transform.py
+│   └── load.py
 │
 ├── README.md
 ```
